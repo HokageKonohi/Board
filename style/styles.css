@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1613712590_80-p-krutoi-fon-dlya-prezentatsii-93.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background: rgba(0, 0, 0, 0.232);
+}
+
+
+.square{
+  width: 16px;
+  height: 16px;
+  background:#1d1d1d;
+  margin: 2px;
+  box-shadow: 0 0 2px #000;
+  transition:  2s ease;
+  border-radius: 50px;
+}
+
+
+.square:hover{
+  transition-duration: 0s;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
